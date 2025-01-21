@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elegant</title>
+    <link rel="stylesheet" href="./css/null.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:wght@400;500;600&family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="body">
+    <div class="discount">
+      <div class="discount-info">
+        <img src="./images/ticket-percent.svg" alt="" />
+        <div>30% off storewide — Limited time!</div>
+
+        <a class="shop-link" href="#">
+          Shop Now →
+        </a>
+      </div>
+      <button class="close-btn">
+        <div class="close-line-1"></div>
+        <div class="close-line-2"></div>
+        </button>
+    </div>
+
+    <header>
+      <div class="container">
+        <nav class="navigation">
+          <div class="burger-logo">
+            <button class="burger">
+              <span class="burger-line line1"></span>
+              <span class="burger-line line2"></span>
+              <span class="burger-line line3"></span>
+            </button>
+            <img src="./images/logo.svg" alt="Logo Elegant"/>
+          </div>
+          <ul class="navigation-list">
+            <li class="navigation-item">
+              <a class="navigation-link" href="#">Home</a>
+            </li>
+            <li class="navigation-item navigation-link-current">
+              <a class="navigation-link" href="#">Shop</a>
+            </li>
+            <li class="navigation-item">
+              <a class="navigation-link" href="#">Product</a>
+            </li>
+            <li class="navigation-item">
+              <a class="navigation-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+
+          <ul class="user">
+            <li class="user-item icon-search">
+              <a class="user-link" href="#">
+                <img src="./images/header-icon-search.svg" alt="Search" />
+              </a>
+            </li>
+            <li class="user-item icon-user">
+              <a class="user-link" href="#">
+                <img src="./images/header-icon-user.svg" alt="User" />
+              </a>
+            </li>
+            <li class="user-item bag">
+              <a class="user-link-bag" href="#">
+                <img src="./images/header-icon-shopping-bag.svg" alt="Bag" />
+                <div class="bag-amount">2</div>
+              </a>
+            </li>
+          
+            </li>
+          </ul>
+      
+        </nav>
+  
+      </div>
+    </header>
+
+    <main class="content">
+      <div class="container">
+
+        <div class="main-banner">
+          <ul class="breadcrumbs">
+            <li class="breadcrumbs-item">
+              <a class="breadcrumbs-link" href="#">Home</a>
+            </li>
+            <li class="breadcrumbs-here">
+              <a class="breadcrumbs-link">Shop</a>
+            </li>
+          </ul>
+          <h1>Shop Page</h1>
+          <p>Let’s design the place you always imagined.</p>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="forms">
+          <div class="forms-left">
+            <form class="categories">
+              <label class="label-categories" for="categories-select">categories</label>
+              <select class="select-categories" name="categories" id="categories-select">
+                <option value="all-room">All Room</option>
+                <option value="living-room" selected>Living Room</option>
+                <option value="bedroom">Bedroom</option>
+                <option value="bathroom">Bathroom</option>
+                <option value="dinning">Dinning</option>
+                <option value="outdoor">Outdoor</option>
+              </select>
+            </form>
+
+            <form class="price">
+              <label class="label-price" for="price-select">price</label>
+              <select class="select-price" name="price" id="price-select">
+                <option value="all-price"  selected>All price</option>
+                <option value="price-1">$0.00 - 99.99</option>
+                <option value="price-2">$100.00 - 199.99</option>
+                <option value="price-3">$200.00 - 299.99</option>
+              </select>
+            </form>
+          </div>
+          <div class="forms-right">
+            <form class="started">
+              <select class="select-started" name="started" id="categories-started">
+                <option value="get-started" selected>Get started</option>
+              </select>
+            </form>
+            <div class="view">
+              <a href="#" class="button-1"><img src="./images/button-1.svg" alt=""></a>
+              <a href="#" class="button-2"><img src="./images/button-2.svg" alt=""></a>
+              <a href="#" class="button-3"><img src="./images/button-3.svg" alt=""></a>
+              <a href="#" class="button-4"><img src="./images/button-4.svg" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="catalog-all">
+          <div class="catalog">
+<!-- 1 card -->
+            <div class="card">
+              <div class="card-img">
+                <img src="./images/product-pillow.png" alt="">
+                <div class="promo">
+                  <p class="promo-new">new</p>
+                  <p class="promo-discount">-50%</p>
+                </div>
+              </div>
+
+              <div class="card-specification">
+                <div class="card-title">
+                  <img class="card-rating" src="./images/rating.svg" alt="">
+                  <p class="card-name">Off-white Pillow</p>
+                  <div class="card-price">
+                    <div class="discount-price">$7.99</div>
+                    <div class="old-price">$13.00</div>
+                  </div>
+                </div>
+                <div class="card-text">
+                  <p>Super-soft cushion cover in off-white with a tactile pattern that enhances the different tones in the pile and base.</p>
+                </div>
+                <button class="add-to-cart">Add to cart</button>
+                <button class="wishlist">Wishlist</button>
+              </div>
+            </div>
+        
+<!-- 2 card -->
+            <div class="card">
+              <div class="card-img">
+                <img src="./images/product-lamp.png" alt="">
+                <div class="promo">
+                  <p class="promo-new">new</p>
+                  <!-- <p class="promo-discount">-50%</p> -->
+                </div>
+              </div>
+
+              <div class="card-specification">
+                <div class="card-title">
+                  <img class="card-rating" src="./images/rating.svg" alt="">
+                  <p class="card-name">Table Lamp</p>
+                  <div class="card-price">
+                    <div class="discount-price">$39.99</div>
+                    <!-- <div class="old-price">$13.00</div> -->
+                  </div>
+                </div>
+                <div class="card-text">
+                  <p>Like small jewels in shiny brass and gray clear glass, pread a soft mood light that creates exciting shadows on walls and ceilings</p>
+                </div>
+                <button class="add-to-cart">Add to cart</button>
+                <button class="wishlist">Wishlist</button>
+              </div>
+            </div>
+
+        <!-- 3 card -->
+            <div class="card">
+              <div class="card-img">
+                <img src="./images/product-closet.png" alt="">
+                <div class="promo">
+                  <p class="promo-new">new</p>
+                  <!-- <p class="promo-discount">-50%</p> -->
+                </div>
+              </div>
+
+              <div class="card-specification">
+                <div class="card-title">
+                  <img class="card-rating" src="./images/rating.svg" alt="">
+                  <p class="card-name">White Drawer unit</p>
+                  <div class="card-price">
+                    <div class="discount-price">$89.99</div>
+                    <!-- <div class="old-price">$13.00</div> -->
+                  </div>
+                </div>
+                <div class="card-text">
+                  <p>Super-soft cushion cover in off-white with a tactile pattern that enhances the different tones in the pile and base.</p>
+                </div>
+                <button class="add-to-cart">Add to cart</button>
+                <button class="wishlist">Wishlist</button>
+              </div>
+            </div>
+
+          <!-- 4 card -->
+            <div class="card">
+              <div class="card-img">
+                <img src="./images/product-sofa.png" alt="">
+                <div class="promo">
+                  <p class="promo-new">new</p>
+                  <!-- <p class="promo-discount">-50%</p> -->
+                </div>
+              </div>
+    
+              <div class="card-specification">
+                <div class="card-title">
+                  <img class="card-rating" src="./images/rating.svg" alt="">
+                  <p class="card-name">Cozy Sofa</p>
+                  <div class="card-price">
+                    <div class="discount-price">$299.00</div>
+                    <!-- <div class="old-price">$13.00</div> -->
+                  </div>
+                </div>
+                <div class="card-text">
+                  <p>Easy transportation was the goal when we created this comfy loveseat with durable beige polyester fabric.</p>
+                </div>
+                <button class="add-to-cart">Add to cart</button>
+                <button class="wishlist">Wishlist</button>
+              </div>
+            </div>
+
+           <!-- 5 card -->
+            <div class="card">
+            <div class="card-img">
+              <img src="./images/product-basket.png" alt="">
+              <div class="promo">
+                <p class="promo-new">new</p>
+                <!-- <p class="promo-discount">-50%</p> -->
+              </div>
+            </div>
+  
+            <div class="card-specification">
+              <div class="card-title">
+                <img class="card-rating" src="./images/rating.svg" alt="">
+                <p class="card-name">Bamboo Basket</p>
+                <div class="card-price">
+                  <div class="discount-price">$9.99</div>
+                  <!-- <div class="old-price">$13.00</div> -->
+                </div>
+              </div>
+              <div class="card-text">
+                <p>With its soft shape and color, this spacious basket is just as decorative wherever you choose to put it.</p>
+              </div>
+              <button class="add-to-cart">Add to cart</button>
+              <button class="wishlist">Wishlist</button>
+            </div>
+            </div>
+
+          <!-- 6 card -->
+            <div class="card">
+              <div class="card-img">
+                <img src="./images/product-table.png" alt="">
+                <div class="promo">
+                  <p class="promo-new">new</p>
+                  <!-- <p class="promo-discount">-50%</p> -->
+                </div>
+              </div>
+    
+              <div class="card-specification">
+                <div class="card-title">
+                  <img class="card-rating" src="./images/rating.svg" alt="">
+                  <p class="card-name">Black Tray table</p>
+                  <div class="card-price">
+                    <div class="discount-price">$19.19</div>
+                    <!-- <div class="old-price">$13.00</div> -->
+                  </div>
+                </div>
+                <div class="card-text">
+                  <p>Easy to love at a price that’s hard to resist. Buy one or buy a few and make every space where you sit more convenient.</p>
+                </div>
+                <button class="add-to-cart">Add to cart</button>
+                <button class="wishlist">Wishlist</button>
+              </div>
+            </div>
+          </div>
+          <button class="show-more">Show more</button>
+        </div>
+      </div>
+      
+      
+      <div class="newsletter">
+        <div  class="container">
+          <h2 class="newsletter-heading">Join Our Newsletter</h2>
+          <p class="newsletter-text">Sign up for deals, new products and promotions</p>
+          <div class="newsletter-form">
+            <form action="">
+              <input
+              type="email"
+              name="email"
+              class="newsletter-form-input"
+              placeholder="Email address"
+            />
+            </form>
+          <button class="newsletter-form-button">Signup</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="container">
+          <div class="footer-blocks">
+            <div class="footer-content">
+              <div class="footer-content-logo">
+                <img class="footer-logo" src="./images/footer-logo.svg" alt="" class="footer-logo">
+                <img class="footer-rectangle" src="./images/footer-rectangle.svg" alt="">
+                <p class="footer-slogan">Gift & Decoration Store</p>
+              </div>
+              <nav class="footer-content-nav">
+                <a href="#">Home</a>
+                <a href="#">Shop </a>
+                <a href="#">Product</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact Us</a>
+              </nav>
+            </div>
+            <div class="footer-bottom">
+              <div class="footer-bottom-right">
+                <p class="footer-copyright">Copyright © 2023 3legant. All rights  reserved</p>
+                
+                <p class="footer-bottom-text">Privacy Policy</p>
+                <p class="footer-bottom-text">Terms of Use</p>
+              
+              </div>
+              <div class="footer-social-icon">
+                <img src="./images/instagram.svg" alt="">
+                <img src="./images/facebook.svg" alt="">
+                <img src="./images/youtube.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    </main>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
