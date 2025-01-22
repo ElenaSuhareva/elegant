@@ -584,7 +584,7 @@ a.shop-link {
     display: flex;
     flex-direction: column;
     width: 312px;
-    margin-bottom: 24px;
+    margin-bottom: 50px;
   }
 
   .card-specification {
