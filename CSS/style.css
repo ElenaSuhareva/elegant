@@ -72,7 +72,7 @@ a.shop-link {
   display: none;
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 930px) {
   .container {
     max-width: 312px;
     margin: 0 auto;
